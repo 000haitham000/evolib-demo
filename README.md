@@ -17,9 +17,9 @@ Make sure you have the following installed:
 
 ### Install
 Since evolib-demo depends on evolib, and evolib depends on tx2ex, let's start by cloning the three libraries:
-> git clone https://github.com/000haitham000/tx2ex.git
-> git clone https://github.com/000haitham000/evolib.git
-> git clone https://github.com/000haitham000/evolib-demo.git
+- > git clone https://github.com/000haitham000/tx2ex.git
+- > git clone https://github.com/000haitham000/evolib.git
+- > git clone https://github.com/000haitham000/evolib-demo.git
 
 Once your have the three projects on your file system add tx2ex and evolib to your local maven repository respectively. This can be done using the following command once for each of the two projects (while in the root directory of the respective project):
 > gradle install
