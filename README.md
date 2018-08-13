@@ -13,11 +13,7 @@ Make sure you have the following installed:
 - ItelliJ
 
 ### Notes
-1. If you are using Ford internal network (durectky or through VPN) make sure that your Git proxy is setup correctly. If not type the following command in your Git bash:
-git config --global http.proxy http://proxyvipecc.nb.ford.com:83
-If you are not behind a proxy (e.g. working from home without using VPN) you need to reset your Git proxy using the following command:
-git config --global --unset http.proxy
-2. Although not required here specifically, it's a good advice for IntelliJ-Gradle users to make sure the "Use auto-import" checkbox is checked in the Gradle settings window (File > Setting > Build, Execution, Deployment > Gradle). This allows IntelliJ to automatically detect and add the necessary support to Gradle projects).
+1. Although not required here specifically, it's a good advice for IntelliJ-Gradle users to make sure the "Use auto-import" checkbox is checked in the Gradle settings window (File > Setting > Build, Execution, Deployment > Gradle). This allows IntelliJ to automatically detect and add the necessary support to Gradle projects).
 
 ### Install
 Since evolib-demo depends on evolib, and evolib depends on tx2ex, let's start by cloning the three libraries:
