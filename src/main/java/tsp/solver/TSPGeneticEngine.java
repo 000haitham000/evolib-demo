@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+
+import engines.UnifiedNsga3Engine;
 import parsing.IndividualEvaluator;
 import utils.RandomNumberGenerator;
 
@@ -19,7 +21,7 @@ import utils.RandomNumberGenerator;
  *
  * @author Haitham Seada
  */
-public class TSPGeneticEngine extends NSGA2Engine {
+public class TSPGeneticEngine extends UnifiedNsga3Engine {
 
     private final int n;
 

@@ -55,6 +55,13 @@ public class TSPSolver {
         // Specify output directory
         File outDir = new File(System.getProperty("user.home") + "/evolib-demo");
         outDir.mkdirs();
+        // Turn off all file dumping
+        AbstractGeneticEngine.DUMP_ALL_GENERATIONS_DECISION_SPACE = false;
+        AbstractGeneticEngine.DUMP_ALL_GENERATIONS_KKTPM = false;
+        AbstractGeneticEngine.DUMP_ALL_GENERATIONS_MATLAB_SCRIPTS = false;
+        AbstractGeneticEngine.DUMP_ALL_GENERATIONS_META_DATA = false;
+        AbstractGeneticEngine.DUMP_ALL_GENERATIONS_OBJECTIVE_SPACE = false;
+
         // Optimize
         Individual[] finalPopulation = geneticEngine.start(outDir, 0, 0);
         // Display Results
